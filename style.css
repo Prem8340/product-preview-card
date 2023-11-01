@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    /* border: 1px solid black; */
+    height: 65%;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.right{
+    height: 100%;
+    width: 50%;
+    
+}
+.perfume{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.left h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(139, 137, 137);
+    font-family: Hanken Grotesk;
+    
+}
+h2{
+    font-family: Fraunces;
+    font-size: 37px;
+    font-weight: bold;
+    line-height: 1; 
+}
+p{
+    color: rgb(139, 137, 137);
+    padding-top: 20px;
+    padding-right: 20px;
+    margin: auto;
+    font-family: Montserrat;
+    line-height: 1.5;
+}
+.rate{
+    display: flex; 
+     
+    
+}
+.rate h3{
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-family: Fraunces;
+}
+/* i{
+    height: 10%;
+    width: 10%;
+} */
+button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: #fff;
+    width: 90%;
+    height: 8%;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+i{
+    height: 50px;
+    width: 100px;
+    color: black;
+    text-decoration: none;
+    border: none;
+}
+@media (max-width:1375px){
+    .container{
+        display: inline;
+    }
+    .right{
+        height: 100%;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+    } 
+    .left{
+        width: 100%;
+        padding: 0px;
+        padding: 20px;
+        text-align: left;
+        overflow: hidden;
+        /* border-bottom-left-radius: 10px; */
+        /* border-bottom-right-radius: 10px; */
+    }
+    button{
+        background-color: hsl(158, 36%, 37%);
+        border: none;
+        color: #fff;
+        width: 100%;
+        height: 12%;
+        font-weight: bold;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all .2s ease-in-out;  
+    }
+}
